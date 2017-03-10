@@ -1,0 +1,29 @@
+{
+  "name": "rake",
+  "version": "1.0.0",
+  "description": "A utility to scrape JavaDoc pages and look for specific classes and their descriptions",
+  "main": "rake.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sriramkannan/rake.git"
+  },
+  "keywords": [
+    "rake",
+    "scrape",
+    "javadoc",
+    "exceptions"
+  ],
+  "author": "sriramkannan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sriramkannan/rake/issues"
+  },
+  "homepage": "https://github.com/sriramkannan/rake#readme", 
+  "dependencies" : {
+    "cheerio": "0.22.0",
+    "request" : "2.81.0"
+  }
+}
